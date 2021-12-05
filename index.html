@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather|Tangerine|Caveat" rel="stylesheet">
+    <!-- Bootstrap CSS
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Почетна страна!</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="Pictures/logo3.png" width="90" height="60" class="d-inline-block align-top rounded" alt="M3Design"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Фрикциони парови</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="zupcasti_parovi.html" aria-disabled="true">Зупчасти парови</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="lancani_parovi.html" aria-disabled="true">Ланчани парови</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="remeni_parovi.html" aria-disabled="true">Ремени парови</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!-- navbar -->
+    <!-- container -->
+    <div class="container">
+      <!-- Content here -->
+      <div>
+        <h1>Моделирање фрикционих преносника снаге</h1>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-12 col-md-11 col-lg-10">
+            <ul class="nav nav-tabs" id="st_me" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="cilindricni_fr_parovi-tab" data-bs-toggle="tab" data-bs-target="#cilindricni_fr_parovi" type="button" role="tab" aria-controls="cilindricni_fr_parovi" aria-selected="true">Цилиндрични фрикциони пар</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link disabled" id="konusni_fr_parovi-tab" data-bs-toggle="tab" data-bs-target="#konusni_fr_parovi" type="button" role="tab" aria-controls="konusni_fr_parovi" aria-selected="true" aria-disabled="true">Конусни фрикциони пар</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="st_me_TabContent">
+              <div class="tab-pane fade show active" id="cilindricni_fr_parovi" role="tabpanel" aria-labelledby="cilindricni_fr_parovi-tab">
+                <div class="accordion" id="modeliranje_cilindricnog_fr_para">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="crtez_cilindricnog_pog_fr_tocka">
+                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_crtez_cilindricnog_pog_fr_tocka" aria-expanded="true" aria-controls="collapse_crtez_cilindricnog_pog_fr_tocka">
+                        Цртеж погонског фрикционог точка:
+                      </button>
+                    </h2>
+                    <div id="collapse_crtez_cilindricnog_pog_fr_tocka" class="accordion-collapse collapse show" aria-labelledby="crtez_cilindricnog_pog_fr_tocka" data-bs-parent="#modeliranje_cilindricnog_fr_para">
+                      <div class="accordion-body">
+                        <img src="Pictures/Crtezi/Pogonski_frikcioni_tocak.jpg" width="100%" alt="Цртеж погонског фрикционог точка">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="T4_7">
+                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_T4_7" aria-expanded="true" aria-controls="collapse_T4_7">
+                        Табела 4.7:
+                      </button>
+                    </h2>
+                    <div id="collapse_T4_7" class="accordion-collapse collapse" aria-labelledby="T4_7" data-bs-parent="#modeliranje_cilindricnog_fr_para">
+                      <div class="accordion-body">
+                        <img src="Pictures/T4_7.jpg" width="100%" alt="Табела 7.59">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="crtez_cilindricnog_gonj_fr_tocka">
+                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_crtez_cilindricnog_gonj_fr_tocka" aria-expanded="true" aria-controls="collapse_crtez_cilindricnog_gonj_fr_tocka">
+                        Цртеж гоњеног фрикционог точка:
+                      </button>
+                    </h2>
+                    <div id="collapse_crtez_cilindricnog_gonj_fr_tocka" class="accordion-collapse collapse" aria-labelledby="crtez_cilindricnog_gonj_fr_tocka" data-bs-parent="#modeliranje_cilindricnog_fr_para">
+                      <div class="accordion-body">
+                        <img src="Pictures/Crtezi/Gonjeni_frikcioni_tocak.jpg" width="100%" alt="Цртеж гоњеног фрикционог точка">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="crtez_cilindricnog_fr_para">
+                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_crtez_cilindricnog_fr_para" aria-expanded="true" aria-controls="collapse_crtez_cilindricnog_fr_para">
+                        Цртеж цилиндричног фрикционог пара:
+                      </button>
+                    </h2>
+                    <div id="collapse_crtez_cilindricnog_fr_para" class="accordion-collapse collapse" aria-labelledby="crtez_cilindricnog_fr_para" data-bs-parent="#modeliranje_cilindricnog_fr_para">
+                      <div class="accordion-body">
+                        <img src="Pictures/Crtezi/Cilindricni_frikcioni_prenosnik_snage.jpg" width="100%" alt="Цртеж фрикционог пара">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="mic_cilindricnog_frikcionog_para">
+                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_mic_cilindricnog_frikcionog_para" aria-expanded="true" aria-controls="collapse_mic_cilindricnog_frikcionog_para">
+                        Моделирање и израда цртежа:
+                      </button>
+                    </h2>
+                    <div id="collapse_mic_cilindricnog_frikcionog_para" class="accordion-collapse collapse" aria-labelledby="mic_cilindricnog_frikcionog_para" data-bs-parent="#modeliranje_cilindricnog_fr_para">
+                      <div class="accordion-body">
+                        <ul class="nav nav-tabs" id="Cilindricni_frikcioni_par_Tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="Cilindricni_frikcioni_par_modeliranje-tab" data-bs-toggle="tab" data-bs-target="#Cilindricni_frikcioni_par_modeliranje" type="button" role="tab" aria-controls="Cilindricni_frikcioni_par_modeliranje" aria-selected="true">Моделирање и анимација</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="Cilindricni_frikcioni_par_crtezi-tab" data-bs-toggle="tab" data-bs-target="#Cilindricni_frikcioni_par_crtezi" type="button" role="tab" aria-controls="Cilindricni_frikcioni_par_crtezi" aria-selected="false">Цртежи обода и склопа</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="Cilindricni_frikcioni_par_TabContent">
+                          <div class="tab-pane show active" id="Cilindricni_frikcioni_par_modeliranje" role="tabpanel" aria-labelledby="Cilindricni_frikcioni_par_modeliranje-tab">
+                            <div class="card ratio ratio-16x9">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/LpL807cwne8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                          <div class="tab-pane" id="Cilindricni_frikcioni_par_crtezi" role="tabpanel" aria-labelledby="Cilindricni_frikcioni_par_crtezi-tab">
+                            <div class="card ratio ratio-16x9">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/S6oEMLqnQak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="konusni_fr_parovi" role="tabpanel" aria-labelledby="konusni_fr_parovi-tab">
+                <div class="accordion" id="modeliranje_konusnog_fr_para">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="crtez_konusnog_pog_fr_tocka">
+                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_crtez_konusnog_pog_fr_tocka" aria-expanded="true" aria-controls="collapse_crtez_konusnog_pog_fr_tocka">
+                        Цртеж погонског фрикционог точка:
+                      </button>
+                    </h2>
+                    <div id="collapse_crtez_konusnog_pog_fr_tocka" class="accordion-collapse collapse show" aria-labelledby="crtez_konusnog_pog_fr_tocka" data-bs-parent="#modeliranje_konusnog_fr_para">
+                      <div class="accordion-body">
+                        <img src="Pictures/Crtezi/Pogonski_frikcioni_tocak.jpg" width="100%" alt="Цртеж погонског фрикционог точка">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="T4_7x2">
+                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_T4_7x2" aria-expanded="true" aria-controls="collapse_T4_7x2">
+                        Табела 4.7:
+                      </button>
+                    </h2>
+                    <div id="collapse_T4_7x2" class="accordion-collapse collapse" aria-labelledby="T4_7x2" data-bs-parent="#modeliranje_konusnog_fr_para">
+                      <div class="accordion-body">
+                        <img src="Pictures/T4_7.jpg" width="100%" alt="Табела 7.59">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="crtez_konusnog_gonj_fr_tocka">
+                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_crtez_konusnog_gonj_fr_tocka" aria-expanded="true" aria-controls="collapse_crtez_konusnog_gonj_fr_tocka">
+                        Цртеж гоњеног фрикционог точка:
+                      </button>
+                    </h2>
+                    <div id="collapse_crtez_konusnog_gonj_fr_tocka" class="accordion-collapse collapse" aria-labelledby="crtez_konusnog_gonj_fr_tocka" data-bs-parent="#modeliranje_konusnog_fr_para">
+                      <div class="accordion-body">
+                        <img src="Pictures/Crtezi/Gonjeni_frikcioni_tocak.jpg" width="100%" alt="Цртеж гоњеног фрикционог точка">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="crtez_konusnog_fr_para">
+                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_crtez_konusnog_fr_para" aria-expanded="true" aria-controls="collapse_crtez_konusnog_fr_para">
+                        Цртеж конусног фрикционог пара:
+                      </button>
+                    </h2>
+                    <div id="collapse_crtez_konusnog_fr_para" class="accordion-collapse collapse" aria-labelledby="crtez_konusnog_fr_para" data-bs-parent="#modeliranje_konusnog_fr_para">
+                      <div class="accordion-body">
+                        <img src="Pictures/Crtezi/Cilindricni_frikcioni_prenosnik_snage.jpg" width="100%" alt="Цртеж фрикционог пара">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="mic_konusnog_frikcionog_para">
+                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_mic_konusnog_frikcionog_para" aria-expanded="true" aria-controls="collapse_mic_konusnog_frikcionog_para">
+                        Моделирање и израда цртежа:
+                      </button>
+                    </h2>
+                    <div id="collapse_mic_konusnog_frikcionog_para" class="accordion-collapse collapse" aria-labelledby="mic_konusnog_frikcionog_para" data-bs-parent="#modeliranje_konusnog_fr_para">
+                      <div class="accordion-body">
+                        <ul class="nav nav-tabs" id="Konusni_frikcioni_par_Tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="Konusni_frikcioni_par_modeliranje-tab" data-bs-toggle="tab" data-bs-target="#Konusni_frikcioni_par_modeliranje" type="button" role="tab" aria-controls="Konusni_frikcioni_par_modeliranje" aria-selected="true">Моделирање и анимација</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="Konusni_frikcioni_par_crtezi-tab" data-bs-toggle="tab" data-bs-target="#Konusni_frikcioni_par_crtezi" type="button" role="tab" aria-controls="Konusni_frikcioni_par_crtezi" aria-selected="false">Цртежи обода и склопа</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="Konusni_frikcioni_par_TabContent">
+                          <div class="tab-pane show active" id="Konusni_frikcioni_par_modeliranje" role="tabpanel" aria-labelledby="Konusni_frikcioni_par_modeliranje-tab">
+                            <div class="card ratio ratio-16x9">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/LpL807cwne8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                          <div class="tab-pane" id="Konusni_frikcioni_par_crtezi" role="tabpanel" aria-labelledby="Konusni_frikcioni_par_crtezi-tab">
+                            <div class="card ratio ratio-16x9">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/S6oEMLqnQak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <nav class="card-header" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">&copy; Slobodan Ivković</li>
+                  <li class="breadcrumb-item"><a href="https://www.linkedin.com/in/slobodan-ivkovic-a08326ba"><img src="Pictures/Icons/linkedin.png" alt="linkedin logo"></a></li>
+                  <li class="breadcrumb-item"><a href="https://twitter.com/slobodan_iv"><img src="Pictures/Icons/twitter.png" alt="twitter logo"></a></li>
+                  <li class="breadcrumb-item"><a href="https://www.youtube.com/user/Mickijedini"><img src="Pictures/Icons/youtube.png" alt="youtube logo"></a></li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- container -->
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
