@@ -48,6 +48,10 @@ body {
   font-size: 1.5rem;
 }
 
+.left_padding {
+  padding-left: 75px;
+}
+
 .container {
   background-color: azure;
 }
