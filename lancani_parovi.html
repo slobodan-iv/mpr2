@@ -36,11 +36,13 @@
               <a class="nav-link active" href="#">Ланчани парови</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
                 Ремени парови
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Пљоснати ремен</a></li>
+                <li>
+                  <a class="dropdown-item" href="kaisni_par.html">Пљоснати ремен</a>
+                </li>
                 <li><a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Клинасти ремен</a></li>
               </ul>
             </li>
@@ -78,7 +80,7 @@
                     <div id="collapse_ul_podaci" class="accordion-collapse collapse show" aria-labelledby="ul_podaci" data-bs-parent="#postavka_zadatka">
                       <div class="accordion-body">
                         <p>
-                          Израчунати потребне параметре и моделирати прирубну спојницу на основу улазних података:
+                          Израчунати потребне параметре и моделирати ланчани пар на основу улазних података:
                         </p>
                         <p>
                           Снага која се преноси: <img src="Pictures/png/P=.png" alt="P="> 60 <img src="Pictures/png/kW.png" alt="kW">
@@ -164,12 +166,12 @@
               <div class="tab-pane fade" id="proracun" role="tabpanel" aria-labelledby="proracun-tab">
                 <div class="accordion" id="proracun_lancanog_para">
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="mere_spojnice">
-                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_mere_spojnice" aria-expanded="true" aria-controls="collapse_mere_spojnice">
+                    <h2 class="accordion-header" id="st_sigurnosti">
+                      <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_st_sigurnosti" aria-expanded="true" aria-controls="collapse_st_sigurnosti">
                         Провера степена сигурности:
                       </button>
                     </h2>
-                    <div id="collapse_mere_spojnice" class="accordion-collapse collapse show" aria-labelledby="mere_spojnice" data-bs-parent="#proracun_lancanog_para">
+                    <div id="collapse_st_sigurnosti" class="accordion-collapse collapse show" aria-labelledby="st_sigurnosti" data-bs-parent="#proracun_lancanog_para">
                       <div class="accordion-body">
                         <p>
                           <strong>Осно </strong> растојање: 
@@ -2040,7 +2042,7 @@
                             <button class="nav-link" id="zip_sklopa-tab" data-bs-toggle="tab" data-bs-target="#zip_sklopa" type="button" role="tab" aria-controls="zip_sklopa" aria-selected="false">"Zip" склопа</button>
                           </li>
                         </ul>
-                        <div class="tab-content" id="lancani_par_TabContent">
+                        <div class="tab-content" id="lancani_par_animacija_TabContent">
                           <div class="tab-pane show active" id="dva_para_clanaka_lanca" role="tabpanel" aria-labelledby="dva_para_clanaka_lanca-tab">
                             <div class="card ratio ratio-16x9">
                               <iframe width="560" height="315" src="https://www.youtube.com/embed/BmvWJD8N5SQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
